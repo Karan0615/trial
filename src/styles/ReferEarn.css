@@ -67,17 +67,3 @@
   }
   
 
-
-
-
-  .refer-container {
-    width: 90%;
-    max-width: 500px;
-    padding: 20px;
-  }
-  @media (max-width: 768px) {
-    .refer-container {
-      width: 100%;
-      padding: 15px;
-    }
-  }

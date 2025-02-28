@@ -103,26 +103,3 @@
 
 
 
-
-
-
-
-  @media (max-width: 750px) {
-    .faq-container {
-      flex-direction: column;
-    }
-  
-    .faq-questions {
-      flex-direction: row;
-      flex-wrap: nowrap;
-      overflow-x: auto;
-      white-space: nowrap;
-      justify-content: center;
-      width: 100%;
-    }
-    .faq-tabs {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  }
