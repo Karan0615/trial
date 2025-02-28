@@ -100,3 +100,36 @@
 
 
 
+  @media (max-width: 750px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: flex-start; /* Align content to the left */
+      text-align: left;
+    }
+  
+    .footer-section:nth-child(1) {
+      order: 1; /* Logo */
+    }
+  
+    .footer-section:nth-child(2) {
+      order: 2; /* Programs */
+    }
+  
+    .footer-section:nth-child(3) {
+      order: 3; /* Contact Us */
+    }
+  
+    .footer-section:nth-child(4) {
+      order: 4; /* Accredian */
+    }
+  
+    .footer-section.social {
+      order: 5; /* Follow Us with icons */
+    }
+  
+    .footer-section {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  

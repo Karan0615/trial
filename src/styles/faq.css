@@ -102,4 +102,19 @@
   
 
 
-
+  @media (max-width: 750px) {
+    .faq-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .faq-tabs {
+      order: 1; /* Tabs appear first */
+    }
+  
+    .faq-content {
+      order: 2; /* Questions and answers appear below the tabs */
+      margin-top: 20px;
+    }
+  }
+  
