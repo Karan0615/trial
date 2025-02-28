@@ -1,0 +1,40 @@
+/* howItWorks.css */
+.how-it-works {
+    text-align: center;
+    padding: 50px;
+    background:rgb(230, 240, 252);
+  }
+  
+  .how-it-works h2 {
+    font-size: 2rem;
+    color: #007bff;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .step {
+    text-align: center;
+    max-width: 200px;
+  }
+  
+  .step span {
+    display: inline-block;
+    font-size: 1.5rem;
+    background: #007bff;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .step p {
+    font-size: 1rem;
+    color: #555;
+  }
+  

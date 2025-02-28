@@ -1,0 +1,147 @@
+/* Navbar Styling */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Space between logo and nav content */
+    align-items: center;
+    padding: 12px 20px; /* Adjusted padding */
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+/* Logo Section */
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo:hover {
+    cursor: pointer;
+  }
+  
+
+.brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.subtext {
+    font-size: 0.75rem;
+    color: #777;
+}
+
+/* Right Side Elements */
+.nav-content {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between nav links and buttons */
+}
+
+/* Center Navigation Links */
+.nav-links {
+    display: flex;
+    gap: 20px; /* Reduced gap for better fit */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+    padding-bottom: 5px;
+    transition: color 0.3s ease, transform 0.2s ease; /* Added transform for hover */
+}
+
+.nav-links li:hover {
+    color: #007bff;
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Right Side Button */
+.nav-buttons {
+    display: flex;
+}
+
+.login-btn {
+    background: #007bff; /* Changed to blue */
+    color: white; /* Text color */
+    border: none;
+    padding: 8px 12px; /* Adjusted padding */
+    font-size: 0.9rem; /* Slightly smaller font size */
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease; /* Added transition */
+    margin-right: 50px; /* Added margin for spacing */  
+}
+
+.login-btn:hover {
+    background: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px 20px;
+    }
+
+    .nav-content {
+        flex-direction: column;
+        align-items: flex-end; /* Align items to the right */
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background: white;
+      padding: 10px;
+      width: 100%;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  }

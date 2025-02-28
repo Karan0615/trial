@@ -1,0 +1,20 @@
+/* global.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  * {
+    font-family: Arial, sans-serif;
+  }
+  

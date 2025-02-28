@@ -1,0 +1,132 @@
+/* footer.css */
+.footer {
+    background: #111;
+    color: white;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 0px;
+    margin: 0;
+  }
+  
+  .tagline {
+    color: #bbb;
+    font-size: 10px;  
+    padding: 0;
+    margin: 0;
+    }
+  
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+    font-size: 12px;
+  }
+  
+  .footer-section ul li:hover {
+    color: #007bff;
+  }
+  
+  .footer-section p {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icons svg {
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .social-icons svg:hover {
+    color: #007bff;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding-top: 15px;
+    border-top: 1px solid #333;
+    font-size: 14px;
+    color: #bbb;
+  }
+ 
+
+
+
+
+
+
+  @media (max-width: 800px) {
+    .footer-container {
+        width: 100%;
+        overflow-x: hidden; /* Prevent extra white space */
+    }
+    @media (max-width: 750px) {
+      .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    
+      .footer-section {
+        width: 100%;
+      }
+    
+      .footer-section h3 {
+        margin-top: 15px;
+      }
+    
+      .social-icons {
+        margin-top: 10px;
+      }
+    
+      .footer-bottom {
+        text-align: left;
+        margin-top: 20px;
+      }
+    }

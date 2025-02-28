@@ -1,0 +1,92 @@
+/* benefits.css */
+.benefits-section {
+    padding: 50px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .benefits-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .benefits-title span {
+    color: #007bff;
+  }
+  
+  .benefits-table {
+    max-width: 900px;
+    margin: 0 auto;
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  thead {
+    background: #007bff;
+    color: white;
+  }
+  
+  th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    font-size: 1.2rem;
+  }
+  
+  td {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  tr:hover {
+    background: #f1f1f1;
+  }
+  
+  .refer-now-btn {
+    background: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .refer-now-btn:hover {
+    background: #0056b3;
+  }
+  
+
+
+
+
+
+
+
+
+  .benefits-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  @media (max-width: 768px) {
+    .benefits-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+    

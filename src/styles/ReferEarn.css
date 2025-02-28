@@ -1,0 +1,83 @@
+.refer-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .refer-container h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .refer-container p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  textarea {
+    resize: none;
+    height: 80px;
+  }
+  
+  button {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  .status-message {
+    margin-top: 15px;
+    font-weight: bold;
+    color: green;
+  }
+  
+
+
+
+
+  .refer-container {
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+  }
+  @media (max-width: 768px) {
+    .refer-container {
+      width: 100%;
+      padding: 15px;
+    }
+  }
